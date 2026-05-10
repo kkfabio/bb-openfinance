@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         'bb-azul': '#0038a8',
-        'bb-amarelo': '#fcf800',
+        'bb-amarelo': '#EBD610',
       },
     },
   },
