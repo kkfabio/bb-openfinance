@@ -7,9 +7,6 @@ const app = express();const URL_CENTRAL = "https://mossy-bribe-carless.ngrok-fre
 app.use(cors());
 app.use(express.json());
 
-// ATENÇÃO: Verifique se o link do ngrok dele mudou! 
-// Ele deve te passar o "LINK UNIVERSAL" que aparece no terminal dele.
-
 app.post('/api/open-finance/sync', async (req, res) => {
   const { cpf, nome } = req.body;
 
